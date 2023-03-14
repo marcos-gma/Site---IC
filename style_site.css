@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ABDAFC
+}
+
+
+
+
+
+@media screen and (min-width: 769px){
+
+
+.texto{
+    color: #181D27;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+
+
+.titulo{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: center;
+    margin-left: 30%;
+    font-family: 'Righteous', cursive;
+    font-size: 200%;
+}
+
+
+
+
+.caixa{
+    font-family: 'Varela Round', sans-serif;
+    color: #181D27;
+    width: 40%;
+    height: 300%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 0.5%;
+    border: 3px solid #C6AC8F;
+    line-height: 150%;
+}
+
+
+
+
+
+
+
+
+.foto{
+    border-radius: 10%;
+    border: 150% solid black;
+    width: 60%;
+    height: 90%;
+}
+
+
+
+
+
+
+
+
+.caixa-foto{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 60%;
+    margin-top: -34%;
+}
+
+
+
+
+.corpo{
+    margin-left: 10%;
+    margin-top: 4%;
+    line-height: 300%;
+}
+
+
+
+
+.instagram{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 67.5%;
+    margin-top: 1%;
+    width: 3%;
+    height: 1.5%;
+}
+
+
+
+
+.github{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 72.5%;
+    margin-top: -3%;
+    width: 3%;
+    height: 1.5%;
+}
+
+
+
+
+.linkedin{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 77.5%;
+    margin-top: -3%;
+    width: 3%;
+    height: 1.5%;
+}
+
+
+
+
+.letterboxd{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 62.5%;
+    margin-top: -3%;
+    width: 3%;
+    height: 1.5%;
+}
+
+
+
+
+.jogo{
+    width: 10%;
+    height: 20%;
+    border-radius: 10%;
+    margin-left: 12%;
+    margin-top: -45%;
+    margin-bottom: 2%;
+}
+
+
+
+
+.filme{
+    width: 10%;
+    height: 20%;
+    border-radius: 10%;
+    margin-left: 23%;
+    margin-top: -50%;
+    margin-bottom: 3%;
+}
+
+
+
+
+.album{
+    width: 10%;
+    height: 20%;
+    border-radius: 10%;
+    margin-left: 34%;
+    margin-top: -50%;
+    margin-bottom: 4%;
+}
+
+}
+
+
+@media screen and (max-width: 769px){
+
+    .texto{
+        color: #181D27;
+        font-family: 'Varela Round', sans-serif;
+    }
+    
+    
+    
+    
+    .titulo{
+        margin-top: 2%;
+        display: flex;
+        flex-direction: center;
+        margin-left: 17%;
+        font-family: 'Righteous', cursive;
+        font-size: 80%;
+    }
+    
+    
+    
+    
+    .caixa{
+        font-family: 'Varela Round', sans-serif;
+        color: #181D27;
+        width: 90%;
+        height: 300%;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        border-radius: 0.5%;
+        border: 3px solid #C6AC8F;
+        line-height: 150%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .foto{
+        border-radius: 10%;
+        border: 150% solid black;
+        width: 80%;
+        height: 90%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .caixa-foto{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 16%;
+        margin-top: 10%;
+    }
+    
+    
+    
+    
+    .corpo{
+        margin-left: 10%;
+        margin-top: 4%;
+        line-height: 300%;
+    }
+    
+    
+    
+    
+    .instagram{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 32.5%;
+        margin-top: 1%;
+        width: 7%;
+        height: 1.5%;
+    }
+    
+    
+    
+    
+    .github{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 42.5%;
+        margin-top: -7%;
+        width: 7%;
+        height: 1.5%;
+    }
+    
+    
+    
+    
+    .linkedin{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 52.5%;
+        margin-top: -7%;
+        width: 7%;
+        height: 1.5%;
+    }
+    
+    
+    
+    
+    .letterboxd{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 62.5%;
+        margin-top: -7%;
+        width: 7%;
+        height: 1.5%;
+    }
+    
+    
+    
+    
+    .jogo{
+        width: 20%;
+        height: 20%;
+        border-radius: 10%;
+        margin-left: 12%;
+        margin-top: 20%;
+        margin-bottom: 2%;
+    }
+    
+    
+    
+    
+    .filme{
+        width: 20%;
+        height: 20%;
+        border-radius: 10%;
+        margin-left: 35%;
+        margin-top: -50%;
+        margin-bottom: 3%;
+    }
+    
+    
+    
+    
+    .album{
+        width: 20%;
+        height: 20%;
+        border-radius: 10%;
+        margin-left: 58%;
+        margin-top: -80%;
+        margin-bottom: 4%;
+    }
+    
+}
